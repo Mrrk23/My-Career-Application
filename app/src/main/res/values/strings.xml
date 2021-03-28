@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyCareer</string>
+    <string name="title_activity_dashbourd">Dashbourd</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="charusat"><a href="https://www.charusat.ac.in/">https://www.charusat.ac.in/</a></string>
+    <string name="nirma"><a href="https://nirmauni.ac.in/">https://nirmauni.ac.in/</a></string>
+    <string name="pdpu"><a href="http://www.pdpu.ac.in/">http://www.pdpu.ac.in/</a></string>
+    <string name="ld"><a href="http://ldce.ac.in/">http://ldce.ac.in/</a></string>
+    <string name="msu"><a href="https://msubaroda.ac.in/">https://msubaroda.ac.in/</a></string>
+    <string name="iit"><a href="https://www.iitgn.ac.in/">https://www.iitgn.ac.in/</a></string>
+    <string name="svnit"><a href="http://svnit.ac.in/">http://svnit.ac.in/</a></string>
+    <string name="daiict"><a href="https://www.daiict.ac.in/">https://www.daiict.ac.in/</a></string>
+    <string name="ddu"><a href="https://www.ddu.ac.in/">https://www.ddu.ac.in/</a></string>
+</resources>

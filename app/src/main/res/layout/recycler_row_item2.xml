@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myCardView2"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CareerName"
+        android:background="#48AAAD"
+        android:textColor="#ffffff"
+        android:text="Enter degree here"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:padding="12dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

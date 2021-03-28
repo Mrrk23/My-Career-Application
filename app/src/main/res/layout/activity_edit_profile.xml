@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SignUp"
+android:orientation="vertical"
+android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/editprofileImageView"
+        android:layout_width="131dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="100dp"
+        app:srcCompat="@drawable/ic_person_black_24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content"
+            android:textColorHint="#48AAAD">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textNoSuggestions"
+                android:hint=" Full Name"
+                android:id="@+id/editprofileFullName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content"
+            android:textColorHint="#48AAAD"
+            android:layout_marginTop="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress|textNoSuggestions"
+                android:hint=" Email"
+                android:id="@+id/editprofileEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="wrap_content"
+            android:textColorHint="#48AAAD"
+            android:layout_marginTop="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPhonetic|textNoSuggestions"
+                android:hint=" Phone"
+                android:id="@+id/editprofilePhoneNo" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/saveProfileInfo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="95dp"
+            android:textSize="18dp"
+            android:background="@drawable/buttonshape"
+            android:text="Save" />
+
+    </LinearLayout>
+</LinearLayout>

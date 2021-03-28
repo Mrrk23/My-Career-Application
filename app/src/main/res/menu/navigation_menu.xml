@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_account"
+        android:icon="@mipmap/baseline_person_black_24dp"
+        android:title="My Account"/>
+    <item android:id="@+id/nav_college"
+        android:icon="@mipmap/baseline_menu_book_black_24dp"
+        android:title="Search Colleges"/>
+    <item android:id="@+id/nav_career"
+        android:icon="@mipmap/baseline_school_black_24dp"
+        android:title="Search In Career"/>
+<!--    <item android:id="@+id/nav_wishlist"-->
+<!--        android:title="My Wishlist"/>-->
+    <item android:id="@+id/nav_logout"
+        android:icon="@mipmap/baseline_login_black_24dp"
+        android:title="Logout" >
+    </item>
+</menu>
